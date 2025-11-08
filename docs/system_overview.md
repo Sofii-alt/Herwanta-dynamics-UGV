@@ -1,11 +1,15 @@
 # System Overview
+# Robot Project System Overview
 
-This project is a modular robotics system designed for autonomous (hopefully) outdoor navigation and .....
-The robot consists of the following main components:
+This project aims to build a mobile robot capable of mapping its environment and performing basic autonomous navigation.
 
-- **Hardware:** motors, battery, sensors (LIDAR, encoders)
-- **Software:** mapping, control, mission planning
-- **Documentation:** plans, sketches, and test results
+## Components
 
-The goal is to create a reliable system for mapping rooms and executing predefined tasks autonomously.
+- **LIDAR sensor:** Measures distances to obstacles and maps the environment.
+- **Motors & Encoders:** Move the robot and provide wheel odometry.
+- **Battery pack:** Powers the robot.
+- **Controller board:** Runs ArduPilot/ROS and communicates with sensors.
+- **Mission planning software:** Receives map data and sends navigation commands.
+
+## Data flow
 
