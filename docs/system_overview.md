@@ -11,4 +11,13 @@ This project aims to build a mobile robot capable of mapping its environment and
 - **Mission planning software:** Receives map data and sends navigation commands.
 
 ## Data flow
+LIDAR → Controller → Mapping software → Mission planning → Motors
+Battery → Powers all components
+
+
+## Goals
+- Step 1: Remote control and simple sensor visualization
+- Step 2: Room mapping and localization
+- Step 3: Autonomous navigation with planned waypoints
+
 
