@@ -1,4 +1,3 @@
-# System Overview
 # Robot Project System Overview
 
 This project aims to build a mobile robot capable of mapping its environment and performing basic autonomous navigation.
