@@ -1,7 +1,7 @@
-# Ro Project
+# Forest rover Project
 
 ## Overview
-Mobile robot project for mapping and autonomous navigation. Designed as a student team project to experiment with sensors, mapping, and mission planning.
+Mobile robot project for mapping and autonomous navigation. Possably used in forest industry for marking trees. Designed as a student team project to experiment with sensors, mapping, and mission planning.
 
 ## Structure
 - /docs: Documentation and planning
