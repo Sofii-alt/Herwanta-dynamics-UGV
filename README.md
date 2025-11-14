@@ -6,7 +6,8 @@ The aim is to combine mechanical design, control systems, mapping, and system in
 Note: Everyone contributes a bit across the teams since this is a small student project.
 
 # Robot showcase
-Here is what our rower plans look like. Dosen't yet have the paintball mount:
+Here is what our rower plan looks like for now. Dosent yet have the paintball mount in.
+<img width="993" height="555" alt="image" src="https://github.com/user-attachments/assets/5438a811-fe35-4a20-8259-51b2504890c0" />
 
 
 
