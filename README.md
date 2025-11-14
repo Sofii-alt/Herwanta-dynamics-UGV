@@ -34,7 +34,7 @@ Members:
 
 ## Team 3 – Mapping + controls + system Integration 
 Members:
-- Sofia → mapping, localization, ROS2, mission planning
+- Sofia → mapping, localization, ROS2, mission planning, GitHub upkeep
 - Eelis → motor control, integration, sensor diagnostics
 - Responsibilities: SLAM, navigation, motor control, sensor integration, system testing
 
