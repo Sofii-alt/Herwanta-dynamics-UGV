@@ -1,6 +1,6 @@
 #  Control Logic Plan
 
-This file explains how our robot will actually move, understand commands, and not crash dramatically into walls.
+This file explains how our robot will actually move, understand commands, and not crash into walls.
 
 # Goal
 Make the robot respond smoothly to:
