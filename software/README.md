@@ -3,7 +3,7 @@ This part is ment for desingning the software for a rover, capable of mapping, l
 ---
 
 
-# Eelis — Control Systems & Hardware Integration
+# Sofia: Control Systems & Hardware Integration
 Focus: Making the robot physically move and ensuring all hardware sensors communicate properly.
 
 Responsibilities:
@@ -19,9 +19,9 @@ Responsibilities:
 - Write simple test scripts (Arduino or Python)
 - Ensure sensors publish clean data (correct units, rates, calibration)
 
-3. Communication Layer (ROS2 ↔ Pixhawk)
+3. Communication Layer (ROS2 <-> Pixhawk)
 - Install MAVROS2
-- Set up serial/UART between Raspberry Pi ↔ Pixhawk
+- Set up serial/UART between Raspberry Pi <-> Pixhawk
 - Expose required topics:
 /odom
 /scan (if LIDAR via Pixhawk)
@@ -33,7 +33,7 @@ Responsibilities:
 - Voltage requirements + power budget
 - Notes on regulators, fuses, and safe power design
 
-# Sofia — Mapping, Localization & Autonomy
+# Sofia: Mapping, Localization & Autonomy
 Focus: Making the robot understand its environment, localize itself, and navigate intelligently.
 
 Responsibilities:
