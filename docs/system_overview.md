@@ -13,8 +13,8 @@ This project aims to build a mobile robot capable of mapping its environment and
 - (Pixhawk removed)
 
 ## Data flow
-LIDAR → Controller → Mapping software → Mission planning → Motors
-Battery → Powers all components
+<img width="1500" height="2000" alt="image" src="https://github.com/user-attachments/assets/6e52783d-2043-48f8-975f-bbfd57be01b6" />
+
 
 
 ## Goals
