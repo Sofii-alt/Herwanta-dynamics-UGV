@@ -1,61 +1,89 @@
 # Mapping Plan
-This file explains how we will handle mapping for our robot.
-The goal is simple: make the robot understand where it is and what the room looks like without panicking or drawing abstract art.
+This file explains how we handle mapping for our robot.
+The goal: make the robot understand where it is without panicking, getting lost, or mapping our feet as “permanent obstacles.”
+
+---
 
 # What We’re Trying to Achieve
-- Build a 2D map of rooms or hallways
-- Track the robot’s position on that map
-- Use the map later for path planning and missions
-- Keep everything light enough to run on a Raspberry Pi 4
+- Build a 2D map of indoor and outdoor test spaces  
+- Track the robot’s position on that map using odometry  
+- Use the map for navigation and missions  
+- Keep everything lightweight enough for Raspberry Pi 5 (8GB)  
+- Make the system modular so we can improve it as our skills improve
 
-# What files do what
-These are the files/folders in our repo connected to mapping:
-- software/mapping/
-- README.md — instructions for running mapping code
-- map_processing.py — processes sensor data
-- room_visualization.py — shows the map visually
-- sensors/
-- lidar_test_logs.md — notes + test results from the vacuum LIDAR
-- wiring_diagram.png — how sensors connect
-- (for future: encoder data, IMU notes)
 
-# Simple mapping pipeline
-1. Gather Sensor Data
-Data we’ll use:
-- LIDAR from the vacuum
-- Wheel encoder data (when the harware team gives them)
-- IMU from the Pixhawk
-- These will later be combined.
+# Repo Structure (Mapping-Relevant Files)
+**software/mapping/**
+- `map_processing.py`: takes sensor inputs -> produces odometry + map updates  
+- `room_visualization.py`: visual output of map, debugging tools  
+- `slam_config/`: future folder for SLAM parameters (ROS2 yaml)
 
-️2. Convert This Into Odom Data
-We produce a clean “robot position estimate” using:
-- encoder distance
-- rotation from IMU
-- time stamps
-- This goes into map_processing.py.
+**sensors/**
+- `lidar_test_logs.md`: results from vacuum-LiDAR tests  
+- `wiring_diagram.png`: how LIDAR + encoders + IMU connect  
+- (future) `encoder_notes.md`  
+- (future) `imu_calibration.md`
 
-3. Build a 2D Map
-We run a mapping algorithm (SLAM) on Raspberry Pi:
-- takes LIDAR scans
-- takes odom
-- updates the map
+**tests/**
+- mapping experiments  
+- hallway recordings  
 
-4. Visualize + Save the Map
-Using room_visualization.py to:
-- draw the map
-- save it for mission planning later
+---
 
-# Testing plan
-Step 1
-- Test LIDAR from vacuum -> write logs to lidar_test_logs.md
-- Run simple map building in Python (even a basic occupancy grid)
-Step 2
-- Add IMU + encoder fusion
-- Small hallway test
-- Try not to map your shoes as obstacles
+# Mapping Pipeline 
+We follow a standard ROS2-style SLAM process:
 
-# TODO (For Team)
-- Clean up LIDAR data logs
-- Add encoder -> odom code
-- Build first map prototype
-- Write short results in tests/ folder
+# Collect Sensor Data
+Data sources:
+- LIDAR (USB, 360° scans)  
+- Wheel encoder ticks: distance  
+- IMU (if available): rotation  
+- Timestamps for synchronization  
+-> All of this runs directly on the **main Raspberry Pi 5**.
+
+---
+
+# Produce Odometry (robot position estimate)
+Inside `map_processing.py` we combine:
+- encoder displacement  
+- IMU angular velocity  
+- time differences  
+Outputs a clean `/odom` topic (ROS2).
+
+---
+
+# Build the 2D Map
+We use a lightweight SLAM implementation on the Pi:
+- LIDAR scans -> detect walls and obstacles  
+- Odometry -> estimates robot movement  
+- SLAM -> updates occupancy grid map  
+Final result: a live map the robot can use later to navigate.
+
+---
+
+# Visualize + Save Map
+Using `room_visualization.py`:
+- real-time map view  
+- save map snapshots (PNG)  
+- store data for later missions  
+Later we’ll integrate RViz2 once everything is stable.
+
+---
+
+# Testing Plan
+
+# Sensors Only
+- Test LIDAR -> write logs into `sensors/lidar_test_logs.md`  
+- Visualize scan data  
+- Build a tiny prototype map (even if it looks like potato-quality)  
+# Add Motion
+- Add encoder + IMU fusion  
+- Small hallway walking test  
+- Try not to map your legs or teammates  
+
+# Robot Rolling
+- Real SLAM test on wheels  
+- Tune odometry until drift stops being “drunk mode"  
+- Save first full map to `/tests/`  
+
+
