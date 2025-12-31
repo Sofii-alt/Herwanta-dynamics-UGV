@@ -34,7 +34,7 @@ Members:
 
 | Aatu | -> calculations, design
 
-| Veeti | -> 3D renderings, design
+| Veeti | -> 3D renderings, design, Github upkeep
 
 | Eelis | -> stability calculations
 
@@ -71,6 +71,7 @@ Responsibilities:
 - Navigation stack
 - Motor control and sensor fusion
 - System-wide testing and integration
+- Gthub upkeep
 
 ---
 
