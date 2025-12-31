@@ -54,7 +54,7 @@ Members:
 | Leo | -> design and actuation of the paintball system
 
 Responsibilities:
-- Mechanical and electrical integration of the marking system
+- Mechanical, electrical and software integration of the marking system
 - Testing firing mechanism
 - Working with mechanical and software teams for safe operation
 
@@ -68,7 +68,7 @@ Members:
 Responsibilities:
 
 - SLAM setup and testing
-- Navigation stack
+- Navigation stack and control systems
 - Motor control and sensor fusion
 - System-wide testing and integration
 - Gthub upkeep
