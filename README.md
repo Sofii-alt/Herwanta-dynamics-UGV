@@ -15,7 +15,7 @@ A preliminary sketch for the robot without the paintball gun yet.
 - Implement basic navigation and motor control using Raspberry Pi 5.
 - Integrate a paintball/marker system for testing actuation and targeting.
 - Learn and practice mechanical, electrical, and software integration.
-- Long-term: build a terrain-ready rover that autonomously maps areas and marks trees for forestry operations.
+- Long-term: build a terrain-ready rover that autonomously maps areas and marks trees for forestry operations. Also in the future we could implement a system that tracks trees and their health before making them
 
 # Repository Structure
 `design_sketches/`   -> mechanical drafts, CAD files, 3D renderings  
@@ -76,7 +76,7 @@ Responsibilities:
 ---
 
 # Current Progress
-- Mechanical: chassis designed, early 3D renders complete, bought wheels and 4 motors. Starting to build basic structure
+- Mechanical: chassis designed, early 3D renders complete, got a battery, bought wheels and 4 motors. Starting to build basic structure
 - Electrical: motor and battery calculations ready
 - Sensors: repurposed a Roborock vacuum LDR. Thinking of ordering a 3D LiDAR
 - Hardware: Two Raspberry Pi 5 (8GB) have been set upp as main computers -> One Pi for system control & mapping (ROS2), one Pi for the paintball/marking system
