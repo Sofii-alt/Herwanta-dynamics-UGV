@@ -18,6 +18,10 @@ This isn’t a finished system. It’s a learning project that grows as I figure
 Right now I’m focusing on the fundamentals:
 testing motors, reading sensors, and learning the ROS2 workflow.
 
+# Why This Repo Exists
+This is a university project, a learning experience, and a place to document progress, not a polished robotics stack (yet).
+I’ll keep updating things as I learn more and the rover becomes more capable.
+
 # Folder Structure (Quick Tour)
 `software/`
 - `control/`:  Basic movement tests + motor control scripts
@@ -34,12 +38,19 @@ Each section has a small README that explains what’s inside. Though for now th
 - Clean up the structure as the project grows
 - Add simulation once the real robot becomes more predictable
 
+# Problems
+What to use for a LIDAR:
+- A 3D one is expensive
+- could build one that goes up and down
+- then again could use a camera and do some basic object recognition
+- no need to have yet figured out until basic controls work on the robot
+
 # Updates
 - Installed Ubuntu on the Raspberry Pi
+- Raspbery pi and computer can commuicate
+- Started playing around with ros2 and Gazebo
 
-# Why This Repo Exists
-This is a university project, a learning experience, and a place to document progress, not a polished robotics stack (yet).
-I’ll keep updating things as I learn more and the rover becomes more capable.
+
 
 ---
 # Basic data flow idea
