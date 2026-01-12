@@ -25,14 +25,13 @@ I’ll keep updating things as I learn more and the rover becomes more capable.
 # Folder Structure (Quick Tour)
 `software/`
 - `control/`:  Basic movement tests + motor control scripts
-- `mapping/`: First attempts at mapping + simple room visualization
-- `mission_planning/`: Early path-planning experiments
+- `mapping/`: First attempts at mapping + simple room visualization (TODO)
+- `mission_planning/`: Early path-planning experiments (TODO)
 - `tests/`: Small scripts for checking sensors, signals, and debugging
 
 Each section has a small README that explains what’s inside. Though for now theres not much in them.
 
 # Next Steps
-- Finish installing ROS2 Jazzy + Nav2 on the main Pi
 - Try simple SLAM without LIDAR
 - Improve mapping and sensor fusion
 - Clean up the structure as the project grows
@@ -49,6 +48,7 @@ What to use for a LIDAR:
 - Installed Ubuntu on the Raspberry Pi
 - Raspbery pi and computer can commuicate
 - Started playing around with ros2 and Gazebo
+- Starting to implement a simple control system
 
 
 
