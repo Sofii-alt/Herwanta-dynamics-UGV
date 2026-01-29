@@ -5,6 +5,7 @@
 # TODO
 ## file where spesify joints
 ## file for parameter rates
+## filer for sensor data and a place that compares them
 
 <robot
   <Ros2 control name="SomeSystem" type="system"
