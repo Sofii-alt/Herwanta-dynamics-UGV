@@ -67,7 +67,6 @@ Members:
 
 Responsibilities:
 
-- SLAM setup and testing
 - Navigation stack and control systems
 - Motor control and sensor fusion
 - System-wide testing and integration
