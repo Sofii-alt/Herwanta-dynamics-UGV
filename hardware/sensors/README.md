@@ -38,3 +38,7 @@ This folder contains proposals, ideas, and considerations for sensors.
 - Unsure if a Raspberry Pi 5 is enough.
 - Might need separate microchips to handle sensor comparison.
 
+
+### TODO
+- Maby research how mars rovers do autonomous sensing
+- Ask around about it
