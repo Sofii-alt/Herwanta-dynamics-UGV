@@ -81,3 +81,4 @@ Responsibilities:
 - Hardware: Two Raspberry Pi 5 (8GB) have been set upp as main computers -> One Pi for system control & mapping (ROS2), one Pi for the paintball/marking system
 - Software: learning (ROS2 Jazzy, SLAM, NAV2, Gazebo). Starting controller development
 -> Decision: Pixhawk and ArduPilot removed from the system to simplify early development
+- Timeline update: structure and basic sontrols should be finished by mid march and at the latest end of march
