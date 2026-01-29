@@ -25,34 +25,34 @@ I’ll keep updating things as I learn more and the rover becomes more capable.
 # Folder Structure (Quick Tour)
 `software/`
 - `control/`:  Basic movement tests + motor control scripts
-- `mapping/`: First attempts at mapping + simple room visualization (TODO)
-- `mission_planning/`: Early path-planning experiments (TODO)
+- `mapping/`: First attempts at mapping + simple room visualization
+- `mission_planning/`: Early path-planning experiments
 - `tests/`: Small scripts for checking sensors, signals, and debugging
 
 Each section has a small README that explains what’s inside. Though for now theres not much in them.
 
 # Next Steps
+- Finish installing ROS2 Jazzy + Nav2 on the main Pi
 - Try simple SLAM without LIDAR
 - Improve mapping and sensor fusion
 - Clean up the structure as the project grows
 - Add simulation once the real robot becomes more predictable
 
 # Problems
-What to use for a LIDAR:
+What to use for a LIDAR (This section is explored more in detail in the `hardware` -> `sensors` part):
 - A 3D one is expensive
 - could build one that goes up and down
 - then again could use a camera and do some basic object recognition
-- no need to have yet figured out until basic controls work on the robot
+- need to get basic controls working fast before can start integrating sensors
 
 # Updates
 - Installed Ubuntu on the Raspberry Pi
 - Raspbery pi and computer can commuicate
 - Started playing around with ros2 and Gazebo
-- Starting to implement a simple control system
+- Got a timeline now and will have to finnish controls at mid march
 
 
 
 ---
 # Basic data flow idea
 <img width="1500" height="2000" alt="image" src="https://github.com/user-attachments/assets/4af0bf23-be87-402e-9e69-5190418e61b9" />
-
