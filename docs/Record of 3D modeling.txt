@@ -1,0 +1,13 @@
+9.2.2026 VeetiMTurunen 
+   Motors and the tires were initially modeled in Blender 2.80 and 5.0 for the sake of quick prototyping and visualization for the team.
+Also due to my prior experience with the software the CAD sketcher add-on was used to layout the motor screwhole positions as per the datasheet.
+The overall composition of these two components was not relevant for the purposes of the build process, they were mainly used for layouting and 
+shape aproximation for the frames. 
+
+   Autodesk Fusion models were all made by us, except for the Profil├®_aluminium_2040_VSLOT by siebert.dimitry
+(https://thangs.com/designer/siebert.dimitry/3d-model/Profil%C3%A9_aluminium_2040_VSLOT-885992).
+The base and layout models such as the frames and battery were modeled by VeetiMTurunen and the entirety of the turret "Torni" models were done by
+Leo6661. The layout in the fusion file and the images (HiisiProto2, -2, -3) was used both for team conceptualization so that everyone understands what
+we are building and how. Second reason for the layout was frame measuring and cutting so that all components can be put together snugly. For now
+due to scope limitations this fusion layout is not used for simulation that Sofii-alt planned for using with Gazebo. We are postponing that step until after
+this layout is fully functional and teleoperational.
