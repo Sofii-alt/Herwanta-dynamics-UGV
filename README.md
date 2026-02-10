@@ -1,21 +1,21 @@
 # Rover Project: Autonomous Mapping and Paintball System
 
-Welcome to our student rover project! This is a small-group work-in-progress autonomous ground robot that can map its surroundings, navigate, and has a paintball/marking system on top.
+Welcome to our student rover project! This is a small-group work-in-progress autonomous ground robot that can map its surroundings, navigate, and has an end-effector/marking system on top.
 
 The aim is to combine mechanical design, control systems, mapping, and system integration, while learning real-world robotics skills.
 Note: Everyone contributes a bit across the teams since this is a small student project.
 
 # Robot showcase
-<img width="993" height="555" alt="image" src="https://github.com/user-attachments/assets/5438a811-fe35-4a20-8259-51b2504890c0" />
-A preliminary sketch for the robot without the paintball gun yet.
+<img width="993" height="555" alt="image" src="https://github.com/Sofii-alt/Herwanta-dynamics-UGV/blob/main/docs/design_sketches/2D_drawings/HiisiProto2-2.png" />
+A preliminary sketch for the robot without the dual use functionality yet.
 
 ---
 # Project Goals
 - Develop a rover that can map rooms or outdoor areas using LIDAR, wheel encoders, and IMU.
 - Implement basic navigation and motor control using Raspberry Pi 5.
-- Integrate a paintball/marker system for testing actuation and targeting.
+- Integrate an end-effector/marker system for testing actuation and targeting.
 - Learn and practice mechanical, electrical, and software integration.
-- Long-term: build a terrain-ready rover that autonomously maps areas and marks trees for forestry operations. Also in the future we could implement a system that tracks trees and their health before making them
+- Long-term: build a terrain-ready rover that autonomously maps areas and marks trees for forestry operations. Also in the future we could implement a system that tracks trees and their health before marking them
 
 # Repository Structure
 `design_sketches/`   -> mechanical drafts, CAD files, 3D renderings  
@@ -47,11 +47,11 @@ Responsibilities:
 
 
 
-# Team 2: Paintball / Marking System
+# Team 2: End-effector / Marking System
 
 Members:
 
-| Leo | -> design and actuation of the paintball system
+| Leo | -> design and actuation of the end-effector system
 
 Responsibilities:
 - Mechanical, electrical and software integration of the marking system
@@ -77,7 +77,7 @@ Responsibilities:
 # Current Progress
 - Mechanical: chassis designed, early 3D renders complete, got a battery, bought wheels and 4 motors. Starting to build basic structure
 - Electrical: motor and battery calculations ready
-- Hardware: Two Raspberry Pi 5 (8GB) have been set upp as main computers -> One Pi for system control & mapping (ROS2), one Pi for the paintball/marking system
+- Hardware: Two Raspberry Pi 5 (8GB) have been set upp as main computers -> One Pi for system control & mapping (ROS2), one Pi for the end-effector/marking system
 - Software: learning (ROS2 Jazzy, SLAM, NAV2, Gazebo). Starting controller development
 -> Decision: Pixhawk and ArduPilot removed from the system to simplify early development
 - Timeline update: structure and basic sontrols should be finished by mid march and at the latest end of march
