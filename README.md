@@ -13,7 +13,7 @@ A preliminary sketch for the robot without the dual use functionality yet.
 # Project Goals
 - Develop a rover that can map rooms or outdoor areas using LIDAR, wheel encoders, and IMU.
 - Implement basic navigation and motor control using Nvidia Jetson
-- Integrate an end-effector/marker system for ponting at targets.
+- Integrate an end-effector for ponting at targets.
 - Learn and practice mechanical, electrical, and software integration.
 
 
