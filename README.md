@@ -1,4 +1,4 @@
-#   Dual-use UGV system
+#   Dual - Use UGV system
 
 Welcome to our student rover project! This is a small-group work-in-progress autonomous ground robot that can map its surroundings, navigate, and has an end-effector/marking system on top.
 
