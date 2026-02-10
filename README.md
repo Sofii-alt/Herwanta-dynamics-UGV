@@ -1,4 +1,4 @@
-# Rover Project: Autonomous Mapping and Paintball System
+# Rover Project: Autonomous Mapping and long range end-effector System
 
 Welcome to our student rover project! This is a small-group work-in-progress autonomous ground robot that can map its surroundings, navigate, and has an end-effector/marking system on top.
 
