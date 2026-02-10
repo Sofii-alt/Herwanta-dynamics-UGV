@@ -9,12 +9,9 @@ Project is set to two teams
 # Mechanical harware 
 - Team add notes!
 
----
-# Paintball side
-- Please add notes!
 
 ---
-# mapping and controls
+# mapping controls and end effector
 
 
 
