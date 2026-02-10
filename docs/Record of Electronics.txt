@@ -1,0 +1,13 @@
+10.2.2026 VeetiMTurunen
+  The battery, LiFePO4 24V 25Ah, was chosen based on the motors. Our wormgear motors, 24V 60W DC brushed, were chosen for controlled, high torque
+output for the sake of offroading and lenghtened operation time. Based on AntonLofgrens calculations the UGV is designed for 10-15 km/h speeds with these 
+components, taking into account stalltorque,-current, size, energy consumption and budget. This is acceptable for the purposes of a demo platform and reliability.
+DC-DC buckconverter for 24V IN and 5V 3A OUT conversion is planned to be implemented so that two rasperrypi 5's can be powered from the battery.
+
+  The BTS7960 drivers that are rated for 24V and 42A which allow backdriving of the motors are, as of date, going to be used due to their reliability and online
+suggestions, both AI (copilot, chatgpt 5) and forum discussions. Their cheap pricetag allows us to also test other plausible drivers without major costs if need be.
+We considered implementing all four drivers need for each motor into a single board along with power cut-off, fuse protection and DC-DC buckconverer for the
+Rasperry pi 5's. Due to time and scope constraints, I am proposing individual component implementation for the intial goal of building a fully functional system.
+
+  Two rasperry pi 5's were bought: one for navigation and motor control and one for turret operation and target image processing. Leo6661 and Sofii-alt are 
+responsible for code, software and navigation implementation on them.
