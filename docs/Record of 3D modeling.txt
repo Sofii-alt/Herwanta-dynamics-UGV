@@ -1,13 +1,25 @@
 9.2.2026 VeetiMTurunen 
    Motors and the tires were initially modeled in Blender 2.80 and 5.0 for the sake of quick prototyping and visualization for the team.
-Also due to my prior experience with the software the CAD sketcher add-on was used to layout the motor screwhole positions as per the datasheet.
+Also due to my prior experience with the software, the CAD sketcher add-on was used to layout the motor screwhole positions as per the datasheet.
 The overall composition of these two components was not relevant for the purposes of the build process, they were mainly used for layouting and 
-shape aproximation for the frames. 
+shape aproximation for the frames. As such they were imported as meshes to the autodesk layout and left as is due to complications in body conversion.
 
    Autodesk Fusion models were all made by us, except for the Profil├®_aluminium_2040_VSLOT by siebert.dimitry
 (https://thangs.com/designer/siebert.dimitry/3d-model/Profil%C3%A9_aluminium_2040_VSLOT-885992).
 The base and layout models such as the frames and battery were modeled by VeetiMTurunen and the entirety of the turret "Torni" models were done by
-Leo6661. The layout in the fusion file and the images (HiisiProto2, -2, -3) was used both for team conceptualization so that everyone understands what
-we are building and how. Second reason for the layout was frame measuring and cutting so that all components can be put together snugly. For now
-due to scope limitations this fusion layout is not used for simulation that Sofii-alt planned for using with Gazebo. We are postponing that step until after
+Leo6661. The layout in the fusion file and the images (HiisiProto2, -2, -3) was used for team conceptualization so that everyone understands what
+we are building and how. Second reason for the layout was frame measuring and cutout placement so that all components can be put together snugly. For now
+due to scope limitations this fusion layout is not used for simulations that Sofii-alt planned for using with Gazebo. We are postponing that step until after
 this layout is fully functional and teleoperational.
+
+10.2.2026 VeetiMTurunen
+   One of the problems we ran into was that the ordered motors were leftside only. This obviously posed layouting/installation challenges along with the
+already 90 degree oriented wormgear motor design that wasn't straight forward to work with (unlike the intial MY1020 motor option seen in Hiisi_Illusitration_proto1).
+Cutouts on the middle-horizontal frame needed to take into account the asymmetry, which left the motor gravitationally unsupported from the cylindrical portion of the motor.
+While the motors are primarily connected to the frame by the three screwholes parallel to the motorshaft, this is not sufficient brace for an offroad vehicle. As a test in the initial 
+prototype, the cylindrical portion of the lower motors is going to be braced from below by quick release fasteners of improvised composition for the sake of prototyping and dynamic
+stress testing.
+
+   The V-slot frame retrofitted from a 3D printer is going to act as the main installation point of electronics such as the proposed BTS7960 Drivers, wiring and additional equipment.
+While these frames are for structural support of the plywood frames, they are going to be accompanied with corner irons more fit to connect plywood at 90 degree angles. These 
+have not been modeled in the illusitrations (HiisiProto2, -2, -3) as of yet as their relevance is going to be further evaluated at a later date.
