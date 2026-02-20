@@ -1,4 +1,4 @@
-# Rover Project: Autonomous Mapping and Paintball System
+#   Dual - Use UGV system
 
 Welcome to our student rover project! This is a small-group work-in-progress autonomous ground robot that can map its surroundings, navigate, and has an end-effector/marking system on top.
 
@@ -12,10 +12,10 @@ A preliminary sketch for the robot without the dual use functionality yet.
 ---
 # Project Goals
 - Develop a rover that can map rooms or outdoor areas using LIDAR, wheel encoders, and IMU.
-- Implement basic navigation and motor control using Raspberry Pi 5.
-- Integrate an end-effector/marker system for testing actuation and targeting.
+- Implement basic navigation and motor control using Nvidia Jetson
+- Integrate an end-effector for ponting at targets.
 - Learn and practice mechanical, electrical, and software integration.
-- Long-term: build a terrain-ready rover that autonomously maps areas and marks trees for forestry operations. Also in the future we could implement a system that tracks trees and their health before marking them
+
 
 # Repository Structure
 `design_sketches/`   -> mechanical drafts, CAD files, 3D renderings  
@@ -32,11 +32,9 @@ Team Structure
 
 Members:
 
-| Aatu | -> calculations, design
+| Aatu | 
 
-| Veeti | -> 3D renderings, design, Github upkeep
-
-| Eelis | -> stability calculations
+| Veeti |
 
 Responsibilities: 
 - Chassis construction
@@ -47,37 +45,23 @@ Responsibilities:
 
 
 
-# Team 2: End-effector / Marking System
+# Team 2: Software 
 
 Members:
 
-| Leo | -> design and actuation of the end-effector system
+| Leo | 
+
+| Sofia | 
 
 Responsibilities:
-- Mechanical, electrical and software integration of the marking system
-- Testing firing mechanism
-- Working with mechanical and software teams for safe operation
-
-
-# Team 3: Mapping, Controls & System Integration
-
-Members:
-
-| Sofia | -> mapping, navigation, control, ROS2, system integration
-
-Responsibilities:
-
-- Navigation stack and control systems
+- End effector system
+- Navigation stack and communication systems
 - Motor control and sensor fusion
 - System-wide testing and integration
 - Gthub upkeep
-
 ---
 
 # Current Progress
 - Mechanical: chassis designed, early 3D renders complete, got a battery, bought wheels and 4 motors. Starting to build basic structure
 - Electrical: motor and battery calculations ready
-- Hardware: Two Raspberry Pi 5 (8GB) have been set upp as main computers -> One Pi for system control & mapping (ROS2), one Pi for the end-effector/marking system
-- Software: learning (ROS2 Jazzy, SLAM, NAV2, Gazebo). Starting controller development
--> Decision: Pixhawk and ArduPilot removed from the system to simplify early development
-- Timeline update: structure and basic sontrols should be finished by mid march and at the latest end of march
+-

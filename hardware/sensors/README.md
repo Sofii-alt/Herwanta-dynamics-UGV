@@ -3,8 +3,24 @@
 This folder contains proposals, ideas, and considerations for sensors.
 
 ## Possible Components
+---
+### Lidar and Sensors Thoughts 2.2026
+- Desided on using a nvidia jetson instead off a rasp pi
+- The other one will still be used on the end effector
+- Use a stereo camera and a 2D Lidar
+  - Will start with visual SLAM. Just the camera and the Jetson
+    -Start with some simple pose estimations, sensor reads and such
+  - When get things in working order can add the lidar
+    - Lidar is there to werefy the data between IMU and camera
+### Problems
+- How to prevent drifting
+  - ways to manage would be with EKF(extended calmar filter) and optimazion based SLAM. Though the latter seems a bit owerkill for now
+#### TODO
+- Start by compairing EKF(extended calmar filter) and optimazion based SLAM
+- Also look into something like for now ORB-SLAM3 (stereo + IMU) and VINS-Fusion
 
-### Lidar and Sensors Thoughts
+---
+### Lidar and Sensors Thoughts 1.2026
 - High-end lidar is an option but expensive.
 - Could combine a 2D lidar with a camera as a more budget-friendly setup.
 

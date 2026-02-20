@@ -1,20 +1,17 @@
 # Hardware notes
 
-Project is set to tree teams
+Project is set to two teams
 1. Mechanical side
-2. Paintball side
-3. mapping and controls side
+2. End effector and software team
+
 
 ---
 # Mechanical harware 
 - Team add notes!
 
----
-# Paintball side
-- Please add notes!
 
 ---
-# mapping and controls
+# mapping controls and end effector
 
 
 
