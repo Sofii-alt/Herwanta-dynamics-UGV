@@ -8,9 +8,9 @@ Note: Everyone contributes a bit across the teams since this is a small student 
 # Robot showcase
 <img width="993" height="555" alt="image" src="https://github.com/Sofii-alt/Herwanta-dynamics-UGV/blob/main/docs/design_sketches/2D_drawings/HiisiProto2-2.png" />
 A preliminary sketch for the robot without the dual use functionality yet.
-<img width="993" height="555" alt="image" src="https://github.com/Sofii-alt/Herwanta-dynamics-UGV/blob/main/docs/Gallery/UprightAssembly.png" />
+<img width="993" height="555" alt="image" src="https://github.com/Sofii-alt/Herwanta-dynamics-UGV/blob/main/docs/Gallery/UprightAssembly.jpg" />
 An upright assembly.
-<img width="993" height="555" alt="image" src="https://github.com/Sofii-alt/Herwanta-dynamics-UGV/blob/main/docs/Gallery/FittingTemporaryAxels1.png" />
+<img width="993" height="555" alt="image" src="https://github.com/Sofii-alt/Herwanta-dynamics-UGV/blob/main/docs/Gallery/FittingTemporaryAxels1.jpg" />
 Tires installed with failed 3D prints for visual formatting.
 
 ---
