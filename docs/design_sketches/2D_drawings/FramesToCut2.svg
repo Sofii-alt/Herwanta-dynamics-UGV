@@ -7,13 +7,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="FramesToCut2.svg"
-   id="svg894"
-   version="1.1"
-   height="841mm"
+   viewBox="0 0 2245.0393 3178.5827"
    width="594mm"
-   viewBox="0 0 2245.0393 3178.5827">
+   height="841mm"
+   version="1.1"
+   id="svg894"
+   sodipodi:docname="FramesToCut2.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
   <metadata
      id="metadata898">
     <rdf:RDF>
@@ -22,76 +22,77 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     inkscape:guide-bbox="true"
-     showguides="true"
-     units="mm"
-     inkscape:current-layer="g890"
-     inkscape:window-maximized="1"
-     inkscape:window-y="-9"
-     inkscape:window-x="-9"
-     inkscape:cy="1302.7066"
-     inkscape:cx="15.833564"
-     inkscape:zoom="0.2614202"
-     showgrid="false"
-     id="namedview896"
-     inkscape:window-height="1001"
-     inkscape:window-width="1920"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0"
-     guidetolerance="10"
-     gridtolerance="10"
-     objecttolerance="10"
-     borderopacity="1"
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
      bordercolor="#666666"
-     pagecolor="#ffffff">
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview896"
+     showgrid="false"
+     inkscape:zoom="0.6"
+     inkscape:cx="1304.4214"
+     inkscape:cy="430.4898"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g890"
+     units="mm"
+     showguides="true"
+     inkscape:guide-bbox="true">
     <sodipodi:guide
-       id="guide1467"
+       position="1309.1554,3654.6392"
        orientation="0,-1"
-       position="1309.1554,3654.6392" />
+       id="guide1467" />
   </sodipodi:namedview>
   <defs
      id="defs868">
     <marker
-       style="overflow:visible"
-       refY="0"
-       refX="0"
+       id="DistanceX"
        orient="auto"
-       id="DistanceX">
+       refX="0"
+       refY="0"
+       style="overflow:visible">
       <path
-         id="path856"
+         d="M 3,-3 -3,3 M 0,-5 V 5"
          style="stroke:#000000;stroke-width:0.5"
-         d="M 3,-3 -3,3 M 0,-5 V 5" />
+         id="path856" />
     </marker>
     <pattern
-       y="0"
-       x="0"
-       height="8"
-       width="8"
+       id="Hatch"
        patternUnits="userSpaceOnUse"
-       id="Hatch">
+       width="8"
+       height="8"
+       x="0"
+       y="0">
       <path
-         id="path859"
-         linecap="square"
-         stroke-width="0.25"
+         d="M8 4 l-4,4"
          stroke="#000000"
-         d="M8 4 l-4,4" />
+         stroke-width="0.25"
+         linecap="square"
+         id="path859" />
       <path
-         id="path861"
-         linecap="square"
-         stroke-width="0.25"
+         d="M6 2 l-4,4"
          stroke="#000000"
-         d="M6 2 l-4,4" />
+         stroke-width="0.25"
+         linecap="square"
+         id="path861" />
       <path
-         id="path863"
-         linecap="square"
-         stroke-width="0.25"
+         d="M4 0 l-4,4"
          stroke="#000000"
-         d="M4 0 l-4,4" />
+         stroke-width="0.25"
+         linecap="square"
+         id="path863" />
     </pattern>
     <symbol
        id="*MODEL_SPACE" />
@@ -99,29 +100,25 @@
        id="*PAPER_SPACE" />
   </defs>
   <g
-     id="g890"
+     inkscape:groupmode="layer"
      inkscape:label="0"
-     inkscape:groupmode="layer">
+     id="g890">
     <path
-       d="m 1252.7475,350.59595 h 748.3467 v 631.1811 H 1252.7475 Z M 531.2746,22.624053 V 1269.8682 h 1700.788 V 22.624053 Z"
+       d="m 1223.2312,1027.5623 v 75.5905 h 869.2915 v -75.5905 h 151.1811 V 712.36742 a 119.05512,119.05512 0 0 1 -230.9316,-17.4036 h -940.7221 v 182.9115 a 119.05512,119.05512 0 1 1 149.687,149.68698 z"
        style="fill:none;stroke:#000000"
-       id="path872" />
+       id="path874" />
     <path
-       id="path874"
-       style="fill:none;stroke:#000000"
-       d="m 1201.7554,2301.3736 v 75.5905 h 869.2915 v -75.5905 h 151.1811 v -315.1949 a 119.05512,119.05512 0 0 1 -230.9316,-17.4036 h -940.7221 v 182.9115 a 119.05512,119.05512 0 1 1 149.687,149.687 z" />
+       id="path880"
+       style="fill:none;stroke:#000000;stroke-width:0.999669"
+       d="M 2245.0855,136.80795 2131.7748,23.421964 h -53.873 a 122.75328,122.83475 0 0 0 -116.6092,0 h -915.1202 a 122.75328,122.83475 0 0 0 -116.60922,0 H 850.23047 L 736.91978,136.80795 V 431.61129 H 899.33182 V 223.73712 h 7.44946 a 122.75328,122.83475 0 0 0 162.17292,0 h 389.3772 v 207.87417 h 94.4256 V 223.73712 h 385.7537 a 122.75328,122.83475 0 0 0 162.173,0 h 11.0729 v 207.87417 h 133.3289 z m -1223.2245,-5.2914 a 33.993251,34.015812 0 1 0 -67.98646,0 33.993251,34.015812 0 1 0 67.98646,0 z m 1031.7296,0 a 33.993216,34.015777 0 1 0 -67.9864,0 33.993216,34.015777 0 1 0 67.9864,0 z" />
     <path
-       d="m 2227.9429,1410.6193 -113.3858,-113.3859 h -53.9087 a 122.83465,122.83465 0 0 0 -116.6865,0 h -915.7268 a 122.83465,122.83465 0 0 0 -116.6865,0 h -79.3853 l -113.3858,113.3859 v 294.8031 h 162.5197 v -207.874 h 7.4544 a 122.83465,122.83465 0 0 0 162.2804,0 h 389.6353 v 207.874 h 94.4882 v -207.874 h 386.0094 a 122.83465,122.83465 0 0 0 162.2805,0 h 11.0802 v 207.874 h 133.4173 z m -1224.0353,-5.2914 a 34.015765,34.015765 0 1 0 -68.03152,0 34.015765,34.015765 0 1 0 68.03152,0 z m 1032.4135,0 a 34.01575,34.01575 0 1 0 -68.0315,0 34.01575,34.01575 0 1 0 68.0315,0 z"
+       d="M 1187.7365,571.58192 V 265.44022 H 1066.79 v 75.5905 h -1.4941 a 119.05512,119.05512 0 1 1 -149.68703,149.6871 v 182.9114 h 940.72203 a 119.05512,119.05512 0 0 1 230.9316,-17.4036 v -315.1949 h -151.1811 v -75.5905 h -117.1638 v 306.1417 z"
        style="fill:none;stroke:#000000"
-       id="path880" />
+       id="path882" />
     <path
-       id="path882"
+       id="path888"
        style="fill:none;stroke:#000000"
-       d="m 1176.2607,1845.3932 v -306.1417 h -120.9465 v 75.5905 h -1.4941 a 119.05512,119.05512 0 1 1 -149.68701,149.6871 v 182.9114 h 940.72201 a 119.05512,119.05512 0 0 1 230.9316,-17.4036 V 1614.842 h -151.1811 v -75.5905 h -117.1638 v 306.1417 z" />
-    <path
-       d="m 389.99475,1526.5594 113.3858,-113.3858 v -53.9087 a 122.83465,122.83465 0 0 0 0,-116.6865 V 326.85156 a 122.83465,122.83465 0 0 0 0,-116.6865 v -79.3853 L 389.99475,17.393958 H 95.191656 V 179.91366 H 303.06565 v 7.4544 a 122.83465,122.83465 0 0 0 0,162.2804 v 389.6353 H 95.191656 v 94.4882 H 303.06565 v 386.00944 a 122.83465,122.83465 0 0 0 0,162.2805 v 11.0802 H 95.191656 v 133.4173 z m 5.2913,-1224.03534 a 34.01576,34.01576 0 1 0 0,-68.03152 34.01576,34.01576 0 1 0 0,68.03152 z m 0,1032.41374 a 34.01575,34.01575 0 1 0 0,-68.0315 34.01575,34.01575 0 1 0 0,68.0315 z"
-       style="fill:none;stroke:#000000"
-       id="path888" />
+       d="m 2243.7996,1238.7569 -113.2459,-113.5256 -53.9087,-0.067 a 122.83465,122.83465 0 0 0 -116.6864,-0.1438 l -915.726,-1.1288 a 122.83465,122.83465 0 0 0 -116.68652,-0.144 l -79.38516,-0.098 -113.5256,113.246 -0.36344,294.8029 162.51952,0.2004 0.25632,-207.8739 7.45452,0.01 a 122.83465,122.83465 0 0 0 162.28026,0.2001 l 389.6349,0.4803 -0.2562,207.8738 94.4881,0.1166 0.2563,-207.8739 386.009,0.4759 a 122.83465,122.83465 0 0 0 162.2805,0.1999 l 11.0802,0.014 -0.2563,207.8739 133.4172,0.1645 z m -1224.0278,-6.8003 a 34.015776,34.015776 0 1 0 -68.03148,-0.084 34.015776,34.015776 0 1 0 68.03148,0.084 z m 1032.4129,1.2728 a 34.015776,34.015776 0 1 0 -68.0315,-0.084 34.015776,34.015776 0 1 0 68.0315,0.084 z" />
   </g>
   <desc
      id="desc892">FramesToCut2.dxf - scale = 1.000000, origin = (0.000000, 0.000000), method = manual</desc>
