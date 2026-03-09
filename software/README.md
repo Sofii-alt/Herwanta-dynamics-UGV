@@ -13,7 +13,7 @@ This isn’t a finished system. It’s a learning project that grows as I figure
 - Build a simple map of the environment
 - Keep track of the robot’s position
 - Plan paths and follow basic goals
-- Run onboard on a Raspberry Pi for off-road use
+- Run onboard on a Jetson for off-road use
 
 Right now I’m focusing on the fundamentals:
 testing motors, reading sensors, and learning the ROS2 workflow.
@@ -32,7 +32,7 @@ I’ll keep updating things as I learn more and the rover becomes more capable.
 Each section has a small README that explains what’s inside. Though for now theres not much in them.
 
 # Next Steps
-- Finish installing ROS2 Jazzy + Nav2 on the main Pi
+- Finish installing ROS2 Jazzy + Nav2 on the Jatson
 - Try simple SLAM without LIDAR
 - Improve mapping and sensor fusion
 - Clean up the structure as the project grows
