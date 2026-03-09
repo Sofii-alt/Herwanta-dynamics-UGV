@@ -8,12 +8,16 @@ Note: Everyone contributes a bit across the teams since this is a small student 
 # Robot showcase
 <img width="993" height="555" alt="image" src="https://github.com/Sofii-alt/Herwanta-dynamics-UGV/blob/main/docs/design_sketches/2D_drawings/HiisiProto2-2.png" />
 A preliminary sketch for the robot without the dual use functionality yet.
+<img width="993" height="555" alt="image" src="https://github.com/Sofii-alt/Herwanta-dynamics-UGV/blob/main/docs/Gallery/UprightAssembly.png" />
+An upright assembly.
+<img width="993" height="555" alt="image" src="https://github.com/Sofii-alt/Herwanta-dynamics-UGV/blob/main/docs/Gallery/FittingTemporaryAxels1.png" />
+Tires installed with failed 3D prints for visual formatting.
 
 ---
 # Project Goals
 - Develop a rover that can map rooms or outdoor areas using LIDAR, wheel encoders, and IMU.
 - Implement basic navigation and motor control using Nvidia Jetson
-- Integrate an end-effector for ponting at targets.
+- Integrate an end-effector for pointing at targets.
 - Learn and practice mechanical, electrical, and software integration.
 
 
@@ -41,7 +45,7 @@ Responsibilities:
 - Motor selection and installation
 - Encoders, battery mounting, electronics layout
 - Mechanical stability and durability
-
+- Electrical wiring
 
 
 
@@ -58,10 +62,10 @@ Responsibilities:
 - Navigation stack and communication systems
 - Motor control and sensor fusion
 - System-wide testing and integration
-- Gthub upkeep
+- Github upkeep
 ---
 
 # Current Progress
-- Mechanical: chassis designed, early 3D renders complete, got a battery, bought wheels and 4 motors. Starting to build basic structure
-- Electrical: motor and battery calculations ready
--
+- Mechanical: Physical lasercut frames are assembled along with motors, mounted to the V-slot aluminium frames. Motor operation was tested and stallcurrent was approximated. Due to the power of the motors this was a high imagination process as sufficient counter torque could not be applied with the tools in hand.
+- Electrical: motor and battery calculations ready. An electrical box was installed for drivers (BTS7960) and a sub controller (ESP32). Wiring is currently under revision for safety reasons.
+
