@@ -1,9 +1,9 @@
 # Software Overview
 
-This folder contains the early software work for oure small autonomous rover project.
+This folder contains the early software work for oure autonomous rover project.
 Everything is still in the “baby steps” phase, so testing ideas, figuring out ROS2, and building the basics for mapping, control, and simple autonomy.
 
-I’ve been experimenting with TurtleBot3 Burger examples to understand ROS2 movement and LIDAR workflows, but since this rover uses different hardware (Raspberry Pi 5, no LIDAR, custom sensors), most things will be adapted or rewritten as I learn more.
+I’ve been experimenting with TurtleBot3 Burger examples to understand ROS2 movement and LIDAR workflows, but since this rover uses different hardware (Jetson nano, custom sensors), most things will be adapted or rewritten as I learn more.
 
 This isn’t a finished system. It’s a learning project that grows as I figure things out.
 
@@ -25,15 +25,14 @@ I’ll keep updating things as I learn more and the rover becomes more capable.
 # Folder Structure (Quick Tour)
 `software/`
 - `control/`:  Basic movement tests + motor control scripts
-- `mapping/`: First attempts at mapping + simple room visualization
-- `mission_planning/`: Early path-planning experiments
-- `tests/`: Small scripts for checking sensors, signals, and debugging
+- `mapping/`: First attempts at mapping + simple room visualization  (work in progress)
+- `mission_planning/`: Early path-planning experiments  (work in progress)
+- `tests/`: Small scripts for checking sensors, signals, and debugging (work in progress)
 
 Each section has a small README that explains what’s inside. Though for now theres not much in them.
 
 # Next Steps
-- Finish installing ROS2 Jazzy + Nav2 on the Jatson
-- Try simple SLAM without LIDAR
+- Try simple SLAM 
 - Improve mapping and sensor fusion
 - Clean up the structure as the project grows
 - Add simulation once the real robot becomes more predictable
@@ -46,10 +45,10 @@ What to use for a LIDAR (This section is explored more in detail in the `hardwar
 - need to get basic controls working fast before can start integrating sensors
 
 # Updates
-- Installed Ubuntu on the Raspberry Pi
-- Raspbery pi and computer can commuicate
-- Started playing around with ros2 and Gazebo
-- Got a timeline now and will have to finnish controls at mid march
+- Jetson nano is setup
+- ros2 workplase is setup
+- basic controlls work. can drive it around on computer.
+- working on URDF
 
 
 
