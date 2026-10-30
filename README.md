@@ -11,7 +11,12 @@ A preliminary sketch for the robot without the dual use functionality yet.
 <img width="993" height="555" alt="image" src="https://github.com/Sofii-alt/Herwanta-dynamics-UGV/blob/main/docs/Gallery/UprightLayout.jpg" />
 An upright assembly.
 <img width="993" height="555" alt="image" src="https://github.com/Sofii-alt/Herwanta-dynamics-UGV/blob/main/docs/Gallery/FittingTemporaryAxels1.jpg" />
+
 Tires installed with failed 3D prints for visual formatting.
+Managed to get radio communication and stereocameras working. Though radio did brake in testing
+https://github.com/user-attachments/assets/440af19b-f690-4b09-8af1-a770150abc24
+
+
 
 ---
 # Project Goals
@@ -66,6 +71,7 @@ Responsibilities:
 ---
 
 # Current Progress
+- radiocommunication works. So does stereocameras. Need to strenghten main build so dosen't sag as much. Also fix radio masts.
 - Mechanical: Physical lasercut frames are assembled along with motors, mounted to the V-slot aluminium frames. Motor operation was tested and stallcurrent was approximated. Due to the power of the motors this was a high imagination process as sufficient counter torque could not be applied with the tools in hand.
 - Electrical: motor and battery calculations ready. An electrical box was installed for drivers (BTS7960) and a sub controller (ESP32). Wiring is currently under revision for safety reasons.
 
