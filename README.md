@@ -11,10 +11,12 @@ A preliminary sketch for the robot without the dual use functionality yet.
 <img width="993" height="555" alt="image" src="https://github.com/Sofii-alt/Herwanta-dynamics-UGV/blob/main/docs/Gallery/UprightLayout.jpg" />
 An upright assembly.
 <img width="993" height="555" alt="image" src="https://github.com/Sofii-alt/Herwanta-dynamics-UGV/blob/main/docs/Gallery/FittingTemporaryAxels1.jpg" />
-
 Tires installed with failed 3D prints for visual formatting.
-Managed to get radio communication and stereocameras working. Though radio did brake in testing
-https://github.com/user-attachments/assets/440af19b-f690-4b09-8af1-a770150abc24
+
+### Managed to get radio communication and stereocameras working. Though antennas did brake in testing
+- video of controlling robot: https://github.com/user-attachments/assets/440af19b-f690-4b09-8af1-a770150abc24
+- video of stereocameras working: https://github.com/user-attachments/assets/5863fb5f-a444-4c92-bf8e-6cbad971b248
+
 
 
 
