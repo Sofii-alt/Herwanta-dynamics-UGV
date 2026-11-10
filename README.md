@@ -1,6 +1,6 @@
 #   Dual - Use UGV system
 
-Welcome to our student rover project! This is a small-group work-in-progress autonomous ground robot that can map its surroundings, navigate, and has an end-effector/marking system on top.
+Welcome to our student rover project! This is a small-group work-in-progress autonomous ground robot that can map its surroundings and navigate.
 
 The aim is to combine mechanical design, control systems, mapping, and system integration, while learning real-world robotics skills.
 Note: Everyone contributes a bit across the teams since this is a small student project.
@@ -25,7 +25,6 @@ Managed to get radio communication and stereocameras working! Though antennas di
 # Project Goals
 - Develop a rover that can map rooms or outdoor areas using LIDAR, wheel encoders, and IMU.
 - Implement basic navigation and motor control using Nvidia Jetson
-- Integrate an end-effector for pointing at targets.
 - Learn and practice mechanical, electrical, and software integration.
 
 
@@ -66,7 +65,6 @@ Members:
 | Sofia | 
 
 Responsibilities:
-- End effector system
 - Navigation stack and communication systems
 - Motor control and sensor fusion
 - System-wide testing and integration
